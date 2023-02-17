@@ -1,0 +1,90 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+/* HEADER */
+
+header {
+   height: 200vh;
+   font-family: 'arial';
+   font-size: 15px;
+   color: #fff;
+   background-image: url("images/apartament.jpg");
+   background-size: cover;
+   background-position: center;
+}
+
+.headerWraper {
+   padding: 10% 5% 0 5%;
+   background-color: rgba(0,0,0, 0.4);
+   height: 200vh;
+}
+
+.wraper {
+   padding: 5% 5% 0 5%;
+}
+
+
+header .topic > div {
+   width: 50%;
+   float: left;
+}
+
+header .logo {
+   text-align: left;
+   padding-right: 30px;
+}
+
+header .logo .logoTitle {
+   font-weight: 600;
+   font-size: 20px;
+   border-bottom: 3px solid #fff;
+   margin-bottom: 5px;
+}
+
+header .callMe {
+   text-align: right;
+}
+
+header .callMe .number {
+   color: #09d65b;
+   font-size: 18px;
+   font-weight: 600;
+   margin-top: 5px;
+}
+
+header .topic p {
+   line-height: 150%;
+   text-transform: capitalize;
+}
+
+/*  SECTION INTRODUCTION */
+
+header .introduction {
+   margin-top: 20%;
+   text-align: left;
+}
+
+header h3 {
+   font-size: 20px;
+   color: #09d65b;
+}
+
+header h1 {
+   font-size: 45px;
+   margin-top: 10px;
+   text-transform: uppercase;
+}
+
+header .introduction p {
+   margin-top: 20px;
+   line-height: 150%;
+}
