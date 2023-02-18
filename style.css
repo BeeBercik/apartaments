@@ -90,7 +90,7 @@ header .introduction p {
 
 /* CONTACT */
 
-header .contact {
+.contact {
    margin-top: 50px;
    padding: 20px;
    background-color: #06023d;
@@ -106,12 +106,12 @@ header .contact p {
    margin: 20px 0;
 }
 
-header .contact label {
+.contact label {
    font-size: 17px;
    color: #09d65b;
 }
 
-header .contact input {
+.contact input {
    width: 100%;
    height: 25px;
    margin: 10px 0;
@@ -119,7 +119,7 @@ header .contact input {
    font-size: 15px;
 }
 
-header .contact textarea {
+.contact textarea {
    width: 100%;
    height: 150px;
    margin-top: 10px;
@@ -127,16 +127,18 @@ header .contact textarea {
    font-size: 15px;
 }
 
-header .contact input[type=submit] {
+.contact input[type=submit] {
    height: 30px;
    font-size: 16px;
    background-color: #09d65b;
+   border: none;
 }
 
-header .contact .links {
+.contact .links {
    margin-top: 30px;
 }
-header .contact .links i {
+
+.contact .links i {
    padding: 5px;
    font-size: 25px;
 }
@@ -223,7 +225,8 @@ main .feature i {
    font-size: 50px;
    text-align: center;
    display: block;
-   margin-bottom: 20px;
+   color: #09d65b;
+   line-height: 100px;
 }
 
 main .feature h2 {
@@ -234,5 +237,56 @@ main .feature h2 {
 }
 
 main .feature p {
+   text-align: center;
+}
+
+main .feature .bgc {
+   width: 100px;
+   height: 100px;
+   margin: 20px auto 50px auto;
+   box-shadow: -10px -10px #09d65b;
+   background-color: #06023d;
+}
+
+/* ABOUT */
+footer {
+   color: #fff;}
+
+footer .about {
+   margin-top: 50px;
+   background-image: url("images/clouds.jpg");
+   background-size: cover;
+}
+
+footer .about .subtitle {
+   margin-bottom: 10px;
+   font-size: 18px;
+}
+
+footer .about h1 {
+   margin-bottom: 20px;
+   font-size: 30px;
+   color: #09d65b;
+   text-transform: uppercase;
+}
+
+footer .about p {
+   line-height: 150%;
+}
+
+footer .about .wraper {
+   padding: 15% 7% 0 7%;
+   background-color: rgba(0,0,0,0.6);
+}
+
+footer .about a {
+   display: block;
+   margin-top: 20px;
+   color: #09d65b;
+}
+
+footer .about .politics {
+   padding: 10px 0;
+   color: #fff;
    text-align: center;
 }
